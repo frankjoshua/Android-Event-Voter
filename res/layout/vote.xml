@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textStyle="bold" 
+    android:typeface="sans" android:textSize="24sp" 
+    android:layout_gravity="center" android:gravity="center" android:text="Vote"/>
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/subject" 
+android:text="subject - fill in" 
+android:layout_marginBottom="20dip" 
+android:layout_marginTop="20dip" android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:layout_gravity="center">
+</TextView>
+
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal">
+
+   
+<TableRow android:gravity="center_horizontal" android:layout_gravity="center_horizontal"> 
+ 
+<Button android:layout_height="wrap_content" 
+android:text="Yes" android:id="@+id/btnYes" android:layout_width="100dip">
+</Button>
+
+<TextView android:layout_marginLeft="20dip" android:layout_marginRight="20dip"/>
+  	
+<Button android:layout_height="wrap_content" 
+android:text="No" android:id="@+id/btnNo" android:layout_width="100dip">
+</Button>
+
+</TableRow> 
+
+
+</TableLayout>
+
+
+</LinearLayout>
